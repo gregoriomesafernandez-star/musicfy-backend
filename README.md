@@ -45,7 +45,7 @@ Before running the project, make sure you have installed:
 Clone the repository:
 
 ```bash
-git clone https://github.com/gregoriomesaf.../musicfy-backend.git
+git clone https://github.com/gregoriomesafernandez-star/musicfy-backend.git
 ```
 
 Navigate to the project directory:
