@@ -1,8 +1,12 @@
-# Musicfy Backend
+# Music Management API (Node.js)
 
 REST API backend for the Musicfy music management application.
 
 Built with Node.js, Express and MongoDB, this backend provides authentication, role-based access control, music management and file uploads for the Musicfy Angular frontend.
+
+## Frontend Repository
+
+[Musicfy Frontend](https://github.com/gregoriomesafernandez-star/musicfy-frontend)
 
 ## Features
 
@@ -14,7 +18,6 @@ Built with Node.js, Express and MongoDB, this backend provides authentication, r
 - Song management
 - Image upload
 - Audio file upload
-- Music playback
 - Role-based access control
 - REST API
 - MongoDB database integration
@@ -114,14 +117,6 @@ The main entities are:
 - Album
 - Song
 
-The relationship between music entities is:
-
-```text
-Artist
-  └── Album
-        └── Song
-```
-
 ## Authentication
 
 The API uses JSON Web Tokens (JWT) for authentication.
@@ -155,16 +150,6 @@ uploads/
 Default images are included in the repository so the application can display a fallback image when no image is provided.
 
 User-uploaded images and audio files are ignored by Git.
-
-## Frontend
-
-This backend is designed to work with the Musicfy Angular frontend.
-
-Frontend repository:
-
-`https://github.com/gregoriomesafernandez-star/musicfy-fronted.git`
-
-The Angular application communicates with this API through HTTP requests.
 
 ## Author
 
